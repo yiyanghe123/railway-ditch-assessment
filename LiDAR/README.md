@@ -2,7 +2,7 @@
 
 This workflow estimates railway side-ditch geometry, condition labels, and maintenance-priority classes from one mobile mapping LiDAR tile or section.
 
-Use the external runner from this folder:
+Use the main runner from this folder:
 
 ```bash
 python run_lidar.py \

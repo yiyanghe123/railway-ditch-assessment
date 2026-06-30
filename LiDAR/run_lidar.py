@@ -1,4 +1,4 @@
-"""External runner for the LiDAR ditch condition pipeline.
+"""Command-line runner for the LiDAR ditch condition pipeline.
 
 This wrapper keeps the algorithm code under code_lidar/ unchanged for normal
 use, while exposing the project paths as command-line arguments. It is the
@@ -62,7 +62,7 @@ def main() -> None:
     env["PYTHONIOENCODING"] = "utf-8"
     env["MPLBACKEND"] = "Agg"
 
-    print("LiDAR external runner")
+    print("LiDAR command-line runner")
     print(f"tile           : {args.tile}")
     print(f"laz_root       : {laz_root}")
     print(f"centreline_dir : {centreline_dir}")

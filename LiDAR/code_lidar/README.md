@@ -1,8 +1,8 @@
 # LiDAR Pipeline Internals
 
-The recommended public entry point is `../run_lidar.py`.
+The main entry point is `../run_lidar.py`.
 
-The scripts in this folder are the internal processing stages used by the LiDAR workflow. They read paths from environment variables set by the external runner.
+The scripts in this folder are the internal processing stages used by the LiDAR workflow. They read paths from environment variables set by the main runner.
 
 ```bash
 python ../run_lidar.py \

@@ -2,7 +2,7 @@
 
 This workflow estimates a visible side-ditch surface from posed panorama images. It is an image-based supporting route and does not replace LiDAR ditch-bottom measurement.
 
-Use the external runner from this folder:
+Use the main runner from this folder:
 
 ```bash
 python run_panorama.py \

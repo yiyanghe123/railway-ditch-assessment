@@ -1,10 +1,10 @@
-# Non-Commercial License Notice
+# License
 
 Copyright (c) 2026 Yiyang He.
 
-This repository is made available for non-commercial research and educational use.
+This code is available for non-commercial research and educational use.
 
-The intended license is the PolyForm Noncommercial License 1.0.0:
+The project uses the PolyForm Noncommercial License 1.0.0:
 
 https://polyformproject.org/licenses/noncommercial/1.0.0/
 

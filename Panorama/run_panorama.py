@@ -1,4 +1,4 @@
-"""External runner for the panorama visible-ditch workflow.
+"""Command-line runner for the panorama visible-ditch workflow.
 
 The individual scripts read PANO_* environment variables. This runner builds
 those variables from command-line arguments and then executes the selected
@@ -103,7 +103,7 @@ def main() -> None:
         env["PANO_INVENTORY_OUT_DIR"] = str(input_dir)
         env["PANO_INVENTORY_FIG_DIR"] = str(output_dir / "figures_inventory")
 
-    print("Panorama external runner")
+    print("Panorama command-line runner")
     print(f"tile       : {args.tile}")
     print(f"input_dir  : {input_dir}")
     print(f"output_dir : {output_dir}")

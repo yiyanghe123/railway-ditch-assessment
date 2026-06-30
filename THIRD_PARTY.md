@@ -8,7 +8,7 @@ The panorama and video workflows use Depth Anything 3 for image-based visible-de
 
 The DA3 model weights must also be downloaded separately and passed with `--model-dir`.
 
-Users are responsible for following the upstream Depth Anything 3 license and model-use terms.
+Follow the upstream Depth Anything 3 license and model-use terms when using the image-based workflows.
 
 ## PyTorch And Scientific Python Packages
 

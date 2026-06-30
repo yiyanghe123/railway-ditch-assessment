@@ -1,4 +1,4 @@
-"""External runner for the video temporal visible-depth workflow."""
+"""Command-line runner for the video temporal visible-depth workflow."""
 from __future__ import annotations
 
 import argparse
@@ -84,7 +84,7 @@ def main() -> None:
     if args.no_skip_existing:
         profile_args.append("--no-skip-existing")
 
-    print("Video temporal-depth external runner")
+    print("Video temporal-depth command-line runner")
     print(f"input_dir  : {input_dir}")
     print(f"output_dir : {output_dir}")
     print(f"config_dir : {config_dir}")

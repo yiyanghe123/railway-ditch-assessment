@@ -2,7 +2,7 @@
 
 This workflow samples inspection-video frames, runs Depth Anything 3, calibrates visible depth against rail geometry, and compares visible side-ditch evidence between two surveys.
 
-Use the external runner from this folder:
+Use the main runner from this folder:
 
 ```bash
 python run_video_temporal_depth.py \

@@ -49,7 +49,7 @@ DA3_METRES_PER_UNIT = 10.0
 
 
 def load_video_specs() -> list[dict]:
-    """Load video metadata from JSON when an external runner provides it."""
+    """Load video metadata from JSON when a runner provides it."""
     spec_path = os.environ.get("VIDEO_SPECS_JSON") or os.environ.get("VIDEO_SPECS_FILE")
     if spec_path:
         data = json.loads(Path(spec_path).read_text(encoding="utf-8"))
