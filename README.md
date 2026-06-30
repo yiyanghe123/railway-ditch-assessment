@@ -122,8 +122,6 @@ python "Video Temporal Depth/run_video_temporal_depth.py" \
 
 This code is released for non-commercial research and educational use. See [LICENSE.md](LICENSE.md).
 
-## Citation
+## Academic Context
 
-If you use this code, please cite the associated master's thesis:
-
-Yiyang He, *Ditch Depth and Condition Assessment from Railway Mobile Mapping Data*, Master's thesis, KTH Royal Institute of Technology, 2026.
+This repository accompanies the master's thesis work of Yiyang He at KTH Royal Institute of Technology, 2026. A formal thesis citation will be added after the thesis record is publicly available. Until then, please refer to this repository URL when discussing or reusing the code.
