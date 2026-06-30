@@ -1,6 +1,10 @@
 # Railway Ditch Depth and Condition Assessment
 
-This repository contains the source code for three railway side-ditch assessment workflows:
+This project develops a data-driven workflow for assessing railway side ditches from mobile mapping and image data. The main goal is to turn survey data into track-referenced ditch information that can support drainage inspection and maintenance planning.
+
+The LiDAR workflow estimates ditch depth, geometry, condition labels, and priority classes along the track. The panorama and inspection-video workflows provide lower-cost visible-surface checks where image data are available.
+
+The code is organised into three workflows:
 
 | Folder | Workflow |
 |---|---|
