@@ -1,0 +1,39 @@
+# Core scientific stack used by the LiDAR, panorama, and video workflows.
+numpy<2
+pandas
+scipy
+matplotlib
+laspy
+lazrs
+
+# Image and video processing.
+opencv-python-headless
+pillow
+imageio
+moviepy
+
+# PyTorch / Depth Anything 3 runtime.
+# Install the correct CUDA or CPU PyTorch build for your machine first if needed:
+# https://pytorch.org/get-started/locally/
+torch>=2
+torchvision
+einops
+huggingface-hub
+safetensors
+transformers
+timm
+omegaconf
+addict
+
+# Additional Depth Anything 3 dependencies included for reproducibility.
+trimesh
+plyfile
+pycolmap
+e3nn
+evo
+open3d
+typer
+requests
+fastapi
+uvicorn
+pillow-heif

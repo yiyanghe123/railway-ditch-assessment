@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local notebooks and IDE settings
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Generated outputs
+output/
+outputs/
+result/
+results/
+figures/
+figures_*/
+output_*/
+tables/
+frames/
+depth/
+
+# Project data
+data/
+tiles/
+centreline_per_tile/
+Bandel*_PointCloud/
+*.laz
+*.las
+*.ply
+*.pcd
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Models and large archives
+Depth-Anything-3/
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.zip
+*.7z
+*.rar
+*.tar
+*.tgz
+*.tar.gz

@@ -1,0 +1,9 @@
+year,sample_order,chainage_label,image_path,rail,y_frac,x_frac,note
+2020,0,0000+000,<path-to-frame-image>,left,0.55,,Fill x_frac = x_pixel / image_width for the current running rail.
+2020,0,0000+000,<path-to-frame-image>,left,0.70,,Fill x_frac = x_pixel / image_width for the current running rail.
+2020,0,0000+000,<path-to-frame-image>,left,0.85,,Fill x_frac = x_pixel / image_width for the current running rail.
+2020,0,0000+000,<path-to-frame-image>,left,0.94,,Fill x_frac = x_pixel / image_width for the current running rail.
+2020,0,0000+000,<path-to-frame-image>,right,0.55,,Fill x_frac = x_pixel / image_width for the current running rail.
+2020,0,0000+000,<path-to-frame-image>,right,0.70,,Fill x_frac = x_pixel / image_width for the current running rail.
+2020,0,0000+000,<path-to-frame-image>,right,0.85,,Fill x_frac = x_pixel / image_width for the current running rail.
+2020,0,0000+000,<path-to-frame-image>,right,0.94,,Fill x_frac = x_pixel / image_width for the current running rail.
